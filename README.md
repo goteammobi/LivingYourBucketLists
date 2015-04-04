@@ -1,7 +1,7 @@
-Built in LA Hacks 2015
+#Built in LA Hacks 2015
 
 ==============
-Made by: <br/><br/>
+Made by: <br/>
 Andy Hollist<br/>
 Harrison Chen<br/>
 Justin Khoo<br/>

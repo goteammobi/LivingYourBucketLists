@@ -1,0 +1,66 @@
+#birthday {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../images/bucketlist.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#birthday h1 {
+  text-shadow: 5px 0px 30px black, 0px 5px 30px black;
+  font-size: 30px;
+  margin: 20px;
+}
+
+#input-birthday {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#input-date {
+  width: 200px;
+  height: 30px;
+  color: black;
+  opacity: .7;
+  border-top-right-radius: 50px 50px;
+  border-top-left-radius: 50px 50px;
+  border-bottom-right-radius: 50px 50px;
+  border-bottom-left-radius: 50px 50px;
+  text-align: center;
+  border: none
+}
+
+#input-date:hover {
+  opacity: .9;
+}
+
+#input-date:active {
+  opacity: .9;
+}
+
+#button-life-leftover {
+  width: 100px;
+  height: 30px;
+  font-size: 12px;
+  color: white;
+  opacity: 0.7;
+  background-color: #25A6E1;
+  border-top-right-radius: 50px 50px;
+  border-top-left-radius: 50px 50px;
+  border-bottom-right-radius: 50px 50px;
+  border-bottom-left-radius: 50px 50px;
+  text-align: center;
+  z-index: 100;
+  border: none;
+}
+
+#button-life-leftover:hover {
+  font-size: 13px;
+  opacity: 1.0;
+  background-color: #25A6E1;
+}

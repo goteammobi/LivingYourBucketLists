@@ -1,4 +1,21 @@
 #leftover-time {
   width: 100vw;
-  height: 100vh;
+  height: 150px;
+  text-align: center;
+  display: inline-block;
+  padding-top: 10px;
+}
+
+#leftover-time h1 {
+  font-size: 20px;
+  font-style: normal;
+  display: inline-block;
+  padding-top: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+}
+
+#given-time-left {
+
 }

@@ -1,4 +1,10 @@
 var ifRealBirthday = false;
+var yearsLeft = "";
+var monthsLeft = "";
+var daysLeft = "";
+var hoursLeft = "";
+var minutesLeft = "";
+var secondsLeft = "";
 
 var months = new Object();
 months['1'] = 'January'
@@ -38,6 +44,13 @@ $("#button-life-leftover").click(function(event){
       console.log("Here is the response: " + JSON.stringify(json)); 
       if (json.success == true) {
         ifRealBirthday = true;
+        yearsLeft = json.data.date['years'];
+        monthsLeft = json.data.date['months'];
+        daysLeft = json.data.date['days'];
+        hoursLeft = json.data.date['hours'];
+        minutesLeft = json.data.date['minutes'];
+        secondsLeft = json.data.date['seconds'];
+
         return [true];
       }
       else {
